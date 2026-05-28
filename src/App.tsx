@@ -58,7 +58,7 @@ const experienceItems = [
     ],
   },
   {
-    company: 'Dr Or Consultoria',
+    company: "D'or Consultoria",
     title: 'Analista de Sistemas Senior',
     period: '2018 - 2024',
     bullets: [
@@ -83,11 +83,13 @@ const experienceItems = [
 ]
 
 const skillGroups = [
-  'Linguagens: C#, SQL, VBA',
-  'Backend: .NET, APIs RESTful, RabbitMQ, Entity Framework',
+  'Linguagens e Tecnologias: C#, SQL, VB6, React',
+  'Backend: .NET, APIs RESTful, Entity Framework, RabbitMQ, Redis',
   'Banco de Dados: SQL Server, T-SQL, PostgreSQL',
-  'DevOps: Git, Azure DevOps',
-  'Office: Excel Avancado, Access',
+  'Cloud e Integracao: Azure Functions, integracoes corporativas',
+  'DevOps: Git, Azure DevOps, CI/CD',
+  'Infraestrutura: Docker',
+  'Office e Automacao: Excel Avancado, Access, VBA',
 ]
 
 const technologies = [
@@ -337,8 +339,12 @@ function App() {
                 <p>FIAP - 2015 a 2017</p>
               </div>
               <div className="education-item">
+                <h3>Tecnico em Informatica</h3>
+                <p>SENAC Santana - 2014 a 2015</p>
+              </div>
+              <div className="education-item">
                 <h3>Tecnico em Computacao Grafica</h3>
-                <p>SENAC Santana - 2010 a 2014</p>
+                <p>SENAC Santana - 2012 a 2013</p>
               </div>
             </div>
           </section>

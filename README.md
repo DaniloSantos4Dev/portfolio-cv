@@ -1,73 +1,56 @@
-# React + TypeScript + Vite
+# Portfolio CV
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Curriculo online desenvolvido em React + TypeScript para apresentar perfil profissional, experiencias, competencias tecnicas e contatos.
 
-Currently, two official plugins are available:
+## Visao geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O projeto foi criado como uma pagina unica com foco em:
 
-## React Compiler
+- apresentacao profissional limpa
+- navegacao lateral entre secoes
+- layout responsivo
+- links diretos para GitHub e LinkedIn
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Vite
+- CSS
+- React Icons
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Como executar
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Instale as dependencias:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Inicie o projeto em desenvolvimento:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+Gere a build de producao:
+
+```bash
+npm run build
+```
+
+Visualize a build localmente:
+
+```bash
+npm run preview
+```
+
+## Estrutura principal
+
+- `src/App.tsx`: estrutura e conteudo da pagina
+- `src/App.css`: estilos principais
+- `src/assets/Img_Danilo.jpg`: foto de perfil utilizada no layout
+
+## Objetivo
+
+Disponibilizar uma versao web do curriculo com visual moderno, leitura facil e manutencao simples.
