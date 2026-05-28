@@ -273,9 +273,11 @@ function App() {
           </div>
           <p>
             Analista de Sistemas com mais de 8 anos de experiencia em
-            desenvolvimento backend, automacoes e solucoes corporativas.
-            Especialista em C#, SQL, VBA, com atuacao em APIs RESTful, Azure
-            Functions e pipelines de DevOps.
+            desenvolvimento backend, automacoes e solucoes corporativas, com
+            atuacao em projetos de alta criticidade e foco em performance,
+            escalabilidade e integracao entre sistemas. Experiencia solida em
+            C#, .NET, SQL, APIs RESTful, mensageria com RabbitMQ, Redis,
+            Entity Framework e praticas de DevOps.
           </p>
           <p>Perfil analitico, focado em eficiencia e qualidade tecnica.</p>
         </section>
